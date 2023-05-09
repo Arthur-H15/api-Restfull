@@ -1,0 +1,22 @@
+
+POST   http://localhost:3000/usuarios
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywibm9tZSI6ImFydGh1ciIsImVtYWlsIjoiYXJ0aHVyQGdtYWlsLmNvbSIsIm51bWVybyI6Ijk5OTk5OTk5OTk5IiwiaWF0IjoxNjgzMjUzMTcwLCJleHAiOjE2ODMyNTY3NzB9.5crcROM0BGWgqPhbBQZaqrarIz1qhlKBE7lzgIx4qVc
+
+{
+          "nome": "arthur",
+          "email": "arthur@gmail.com",
+          "senha": "a1b2c3d4e5@",
+          "numero": "99999999999"
+          
+}
+#############
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+
+{
+    "email":"arthur@gmail.com",
+    "senha":"a1b2c3d4e5@"
+
+}

@@ -1,0 +1,6 @@
+services:
+  - name: app
+    type: web
+    buildCommand: docker build -t my-app .
+    startCommand: docker run --name my-app -p 3001:3001 -v $(pwd):/home/node/app my-app
+    
