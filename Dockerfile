@@ -16,15 +16,15 @@ RUN  cd /home/node/app
 
 # Install app dependencies using the `npm ci` command instead of `npm install`
 # RUN update && upgrade
-RUN apk --no-cache upgrade && apk add --no-cache chromium
+# RUN apk --no-cache upgrade && apk add --no-cache chromium
 RUN apk add --no-cache bash
 RUN apk add --no-cache nano
 ENV TZ="America/Recife"
 RUN npm i -g @nestjs/cli@8.0.0
-RUN npm i
-RUN npm run start:dev
-ENV PORT=3000
-EXPOSE 3000
+# RUN npm i
+# RUN npm run start:dev
+# ENV PORT=3000
+# EXPOSE 3000
 
 # Bundle app source
 # COPY --chown=node:node . .
