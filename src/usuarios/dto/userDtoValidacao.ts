@@ -1,8 +1,10 @@
+import { ApiProperty } from "@nestjs/swagger";
 import { Transform } from "class-transformer";
 import { IsDate, IsEmail, IsEmpty, IsNumber, IsString, Matches, MinLength } from "class-validator";
 import { pick } from 'lodash';
 
 export class UserDtoValidacao {
+    @ApiProperty()
     @IsString({
         message: 'Verifique o campo Nome',
     })
@@ -11,17 +13,20 @@ export class UserDtoValidacao {
     })
     nome: string;
     @IsEmail()
+    @ApiProperty()
     email: string;
     @IsString()
     @MinLength(8)
     @Matches(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/, {
         message: 'A senha deve ter pelo menos 8 caracteres, uma letra e um caractere especial',
     })
+    @ApiProperty()
     senha: string;
     @IsString()
     @Matches(/^\d{11}$/, {
         message: 'O número de telefone deve ter exatamente 11 dígitos e não deve conter letras',
     })
+    @ApiProperty()
     numero: string;
 
 
