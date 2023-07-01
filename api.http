@@ -6,7 +6,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Nywibm9tZSI6I
 {
           "nome": "arthur",
           "email": "arthur@gmail.com",
-          "senha": "a1b2c3d4e5@",
+          "senha": "123@qwer",
           "numero": "99999999999"
           
 }
