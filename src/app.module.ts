@@ -12,7 +12,7 @@ import { AuthModule } from './auth/auth.module';
     ConfigModule.forRoot(),
     TypeOrmModule.forRoot({
       type: 'mysql', // Tipo de banco de dados
-      host: process.env.TYPEORM_HOST, // Host do banco de dados
+      host:process.env.TYPEORM_HOST, // Host do banco de dados
       port:  parseInt(process.env.TYPEORM_PORT), // Porta do banco de dados
       username: process.env.TYPEORM_USERNAME, // Nome de usuário do banco de dados
       password: process.env.TYPEORM_PASSWORD, // Senha do banco de dados
