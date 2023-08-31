@@ -20,7 +20,7 @@ RUN  cd /home/node/app
 RUN apk add --no-cache bash
 RUN apk add --no-cache nano
 ENV TZ="America/Recife"
-RUN npm i -g @nestjs/cli@8.0.0
+RUN npm i -g @nestjs/cli@9.0.0
 # RUN npm i
 # RUN npm run start:dev
 # ENV PORT=3000
