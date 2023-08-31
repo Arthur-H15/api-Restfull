@@ -21,8 +21,6 @@ Descrição concisa do seu projeto: Uma API REST autenticada com JWT, desenvolvi
 - [Contato](#contato)
 
 ## Pré-requisitos
-
-- Node.js (versão X.X.X)
 - Docker
 - Docker Compose
 
