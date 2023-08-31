@@ -1,6 +1,13 @@
 # API REST com NestJS, JWT e MySQL
 
-![Logo](link_para_seu_logo.png)
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
+
+<p align="center">API REST com NestJS, autenticada com JWT, documentada com Swagger, executada utilizando Docker Compose e conecta com banco de dados MySQL.</p>
+<p align="center">
+  <!-- Coloque aqui os seus próprios badges e links, caso deseje. -->
+</p>
 
 Descrição concisa do seu projeto: Uma API REST autenticada com JWT, desenvolvida utilizando o framework NestJS, documentada com Swagger e executada utilizando Docker Compose, com conexão ao banco de dados MySQL.
 
