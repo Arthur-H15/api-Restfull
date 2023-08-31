@@ -22,7 +22,7 @@ Descrição concisa do seu projeto: Uma API REST autenticada com JWT, desenvolvi
 ## Instalação
 
 1. Clone o repositório: `git clone https://github.com/Arthur-H15/api-Restfull.git`
-2. Navegue até o diretório: `cd seu-repositorio`
+2. Navegue até o diretório: `cd api-Restfull`
 3. Instale as dependências: `npm install`
 
 ## Uso
